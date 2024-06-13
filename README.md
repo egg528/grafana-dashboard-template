@@ -6,9 +6,11 @@
 ├── README.md
 └── prometheus
     └── spring-boot-actuator
-        ├── cache.json               @see https://grafana.com/grafana/dashboards/21303-cache/
-        ├── hikaricp-jdbc.json       @see https://grafana.com/grafana/dashboards/21064-jvm-micrometer/
-        └── jvm.json                 @see https://grafana.com/grafana/dashboards/20729-spring-boot-jdbc-hikaricp/
+        ├── cache.json               @see https://grafana.com/grafana/dashboards/21303-cache
+        ├── circuit-breaker.json     @see https://grafana.com/grafana/dashboards/21307-circuit-breaker
+        ├── hikaricp-jdbc.json       @see https://grafana.com/grafana/dashboards/21064-jvm-micrometer
+        ├── http.json                @see https://grafana.com/grafana/dashboards/21308-http
+        └── jvm.json                 @see https://grafana.com/grafana/dashboards/20729-spring-boot-jdbc-hikaricp
 ```
 - 우측 url은 2가지 경우 중 하나를 의미한다.
   - 제공된 template을 기반으로 수정한 경우
